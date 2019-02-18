@@ -23,9 +23,7 @@ return newArray
 
 
 function attributesToPhrase(array){
-  let newArray = []
-  array.map(function (driver) {newArray.push(`${driver.name} is from ${driver.hometown}`)});
 
-return newArray
+let newArray = array.map(function (driver) {newArray.push(`${driver.name} is from ${driver.hometown}`)});
 
 };
